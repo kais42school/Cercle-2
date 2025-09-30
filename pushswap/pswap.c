@@ -6,7 +6,7 @@
 /*   By: kfredj <kfredj@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 20:05:37 by kfredj            #+#    #+#             */
-/*   Updated: 2025/09/23 19:21:43 by kfredj           ###   ########.fr       */
+/*   Updated: 2025/09/25 21:43:49 by kfredj           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,14 +51,8 @@ void	free_pswap(t_pswap *ps)
 	if (!ps)
 		return ;
 	if (ps->a)
-	{
 		stack_destoy(ps->a);
-		free(ps->a);
-	}
 	if (ps->b)
-	{
 		stack_destoy(ps->b);
-		free(ps->b);
-	}
 	free(ps);
 }

@@ -6,7 +6,7 @@
 /*   By: kfredj <kfredj@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 15:20:56 by kfredj            #+#    #+#             */
-/*   Updated: 2025/09/23 17:01:24 by kfredj           ###   ########.fr       */
+/*   Updated: 2025/09/25 22:21:01 by kfredj           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,12 @@ void	sort_stack_of_three(t_pswap *ps)
 	int	y;
 	int	z;
 
-	if (!ps || !ps->b || !ps->b->top || !ps->b->top->next
-		|| !ps->b->top->next->next)
-	{
-		write (1, "sortstackthree a return", 24);
-		return ;
-	}
+	// if (!ps || !ps->b || !ps->b->top || !ps->b->top->next
+	// 	|| !ps->b->top->next->next)
+	// {
+	// 	write (1, "sortstackthree a return", 24);
+	// 	return ;
+	// }
 	x = ps->b->top->value;
 	y = ps->b->top->next->value;
 	z = ps->b->top->next->next->value;

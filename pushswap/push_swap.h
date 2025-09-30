@@ -6,7 +6,7 @@
 /*   By: kfredj <kfredj@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 10:19:32 by kfredj            #+#    #+#             */
-/*   Updated: 2025/09/23 17:24:13 by kfredj           ###   ########.fr       */
+/*   Updated: 2025/09/30 17:38:55 by kfredj           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,4 +81,5 @@ void				swap(t_stack *stack);
 void				sort_stack_of_three(t_pswap *ps);
 t_pswap				*pswap_init(void);
 void				free_pswap(t_pswap *ps);
+void				print_stack(t_stack *stack, char name);
 #endif
